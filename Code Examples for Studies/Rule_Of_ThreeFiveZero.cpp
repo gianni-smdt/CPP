@@ -68,11 +68,11 @@ int main(){
     //ROT
     FloatDataROT data_1, data_2;
     data_1 = data_2;
-    std::cout << "Wert: " << data_2.value() << std::endl;
+    std::cout << "Value: " << data_2.value() << std::endl;
 
     //ROF
     Vec3 vec3_1 {1,0,2};
     Vec3 vec3_2 = vec3_1;
-    std::cout << "Wert vec3_2.x: " << vec3_2.x() << std::endl;
-    std::cout << "Wert vec3_1.x: " << vec3_1.x() << std::endl;
+    std::cout << "Value vec3_2.x: " << vec3_2.x() << std::endl;
+    std::cout << "Value vec3_1.x: " << vec3_1.x() << std::endl;
 }
