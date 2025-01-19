@@ -14,7 +14,7 @@ class FloatDataROT{
             *this = other; 
         }
 
-        FloatDataROT& operator = (const FloatDataROT& other){ //Copy-Assign-Operator (Operator Overload)
+        FloatDataROT& operator = (const FloatDataROT& other){ //Copy Assignment Operator 
             m_value = other.m_value; 
             return *this; 
         }
@@ -35,7 +35,7 @@ struct Vec3{
 
     ~Vec3() {} //Destructor 
 
-    Vec3& operator = (const Vec3& o){ //Copy Assign 
+    Vec3& operator = (const Vec3& o){ //Copy Assignment Operator 
         values_ = o.values_; 
         return *this;
     }
@@ -44,7 +44,7 @@ struct Vec3{
         *this = o; 
     }
 
-    Vec3& operator = (Vec3 &&o){ //Move Assign Operator
+    Vec3& operator = (Vec3 &&o){ //Move Assignment Operator
         std::swap(o.values_, this->values_); 
         return *this;
     }
