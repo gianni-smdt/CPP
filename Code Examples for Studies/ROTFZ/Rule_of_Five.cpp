@@ -10,7 +10,7 @@ struct ROF{
         values = {0, 0, 0}; //Default Constructor
     }
 
-    ROF(float x, float y, float z) { //Constructor
+    ROF(float x, float y, float z){ //Constructor
         values = {x, y, z};
     }
 
@@ -25,7 +25,7 @@ struct ROF{
         return *this;
     }
 
-    ROF(ROF&& o) { //Move Constructor
+    ROF(ROF&& o){ //Move Constructor
         *this = o;
         //o.values = {0, 0, 0};
     }
@@ -47,7 +47,7 @@ struct ROF{
 };
 
 auto main() -> int{
-    ROF test1{2, 4, 6}; //Constructor
+    ROF test1 {2, 4, 6}; //Constructor
     
     ROF test2 = test1; //Copy Constructor
     
