@@ -1,3 +1,5 @@
+//Rule of Three = Destructor + Copy Constructor + Copy Assignment Operator + Move Constructor + Move Assignment Operator
+
 #include <iostream>
 #include <array>
 
@@ -36,10 +38,6 @@ struct ROF{
         return *this;
     }
 
-    const float& x() const{
-        return values [0];
-    }
-
     void printArray(){
         for (const auto& v : values) {
             std::cout << v << " ";
@@ -60,8 +58,6 @@ auto main() -> int{
     
     ROF test5; 
     test5 = std::move(test1); //Move Assignment
-
-    //std::cout << test1.x() << std::endl;
 
     std::cout << "test1: "; 
     test1.printArray();
