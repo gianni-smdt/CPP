@@ -16,6 +16,7 @@ struct Square : Shape {
 int main()
 {
     std::unique_ptr<Shape> s = std::make_unique<Square>();
+    //Shape* s = new Square();  //also possible
 
     s->draw();
 
