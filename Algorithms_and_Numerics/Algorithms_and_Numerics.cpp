@@ -26,6 +26,4 @@ auto main() -> int {
 
     auto sum_reduce = std::reduce(std::begin(data), std::end(data), float(0), std::plus<>{}); //std::reduce from <numeric>
     std::cout << "Sum (reduce): " << sum_reduce << std::endl;
-
-    //
 }
