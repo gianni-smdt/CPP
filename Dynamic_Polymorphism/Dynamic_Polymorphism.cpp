@@ -13,8 +13,7 @@ struct Square : Shape {
     }
 };
 
-int main()
-{
+auto main() -> int{
     std::unique_ptr<Shape> s = std::make_unique<Square>(); //smart pointer
     //Shape* s = new Square(); //raw pointer
 
