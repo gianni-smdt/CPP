@@ -12,11 +12,11 @@
 ### Prerequisites
 ##### Compilation with GCC: 
 To run these codes, you'll need the current version of the GNU Compiler Collection (GCC) and the GNU Debugger (GDB):
-- Debian and Debian-based distributions (e.g. Ubuntu, Linux Mint, MX Linux, ...):
+- Debian GNU/Linux and Debian-based distributions (e.g. Ubuntu, Linux Mint, MX Linux, ...):
   ```bash
   sudo apt-get install gcc, gdb
   ```
-- Arch-based distrubutions (e.g. Manjaro, EndeavourOS, Garuda, ...):
+- Arch Linux and Arch-based distrubutions (e.g. Manjaro, EndeavourOS, Garuda, ...):
   ```bash
   sudo pacman -S gcc, gdb
   ```
