@@ -50,6 +50,9 @@ To run these codes, you'll need a newer version of the GNU Compiler Collection (
 ## License
 Distributed under the GPL-3.0 License. See `LICENSE` file for more details.
 
+## Reference
+Some of the codes shown in this repository are modified codes from my programming lectures.
+
 ## Contact
 Maintainer: [Gianni Schmidt](mailto:giannischmidt2001@gmail.com)
 
