@@ -25,11 +25,11 @@ To run these codes, you'll need the current version of the GNU Compiler Collecti
 ### Installation
 - Clone the repository to your local machine:
   ```bash 
-  git clone https://github.com/gianni-smdt/CPP_for_Students.git
+  git clone https://github.com/gianni-smdt/CPP_Learning.git
   ```
 - Navigate to the repository's directory: 
   ```bash
-  cd CPP_for_Students
+  cd CPP_Learning
   ```
 
 ## Usage
