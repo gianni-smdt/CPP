@@ -23,4 +23,6 @@ auto main() -> int{
 
     std::vector<std::unique_ptr<Shape>> shapes; 
     shapes.push_back(std::make_unique<Square>());
+
+    return 0;
 }
