@@ -25,11 +25,11 @@ To run these codes, you'll need a newer version of the GNU Compiler Collection (
 ### Installation
 - Clone the repository to your local machine:
   ```bash 
-  git clone https://github.com/gianni-smdt/CPP_Learning.git
+  git clone https://github.com/gianni-smdt/cpp-learning.git
   ```
 - Navigate to the repository's directory: 
   ```bash
-  cd CPP_Learning
+  cd cpp-learning
   ```
 
 ## Usage
