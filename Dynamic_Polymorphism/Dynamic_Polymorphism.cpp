@@ -15,10 +15,12 @@ struct Square : Shape {
 
 int main()
 {
-    std::unique_ptr<Shape> s = std::make_unique<Square>();
-    //Shape* s = new Square();  //also possible
+    std::unique_ptr<Shape> s = std::make_unique<Square>(); //smart pointer
+    //Shape* s = new Square(); //raw pointer
 
     s->draw();
+
+    //delete s; //in case you use the raw pointer
 
     std::vector<std::unique_ptr<Shape>> shapes; 
     shapes.push_back(std::make_unique<Square>());
