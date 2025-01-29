@@ -10,7 +10,7 @@
 
 ## Getting Started
 ### Prerequisites
-##### Compilation with GCC: 
+#### Compiling with GCC: 
 To run these codes, you'll need a newer version of the GNU Compiler Collection (GCC) and the GNU Debugger (GDB):
 - Debian GNU/Linux and Debian-based distributions (e.g. Ubuntu, Linux Mint, MX Linux, ...):
   ```bash
