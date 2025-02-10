@@ -35,8 +35,8 @@ public:
 };
 
 auto main() -> int{
-    Student student1("Max", 16, "10B", 2.5);
-    Student student2("Hayley", 15, "9A", 1.8);
+    Student student1("Jeffrey", 16, "10B", 2.5);
+    Student student2("Vanessa", 15, "9A", 1.8);
 
     student1.show();
     std::cout << "\n";
